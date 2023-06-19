@@ -2,7 +2,7 @@
 
 ### requirements
 - python 3.7
-- torch 1.10.2+cu113
+- torch 1.12
 - numpy 1.21.6
 
 ### datasets
