@@ -52,7 +52,7 @@ def train(config):
     num_step = config["optimize"].get("num_step", 30)
     net = MCGVL(config).cuda()
     loss_fn = LOSS()
-    optimizer = optim.Adam(net.parameters(), lr=0.0004)
+    optimizer = optim.Adam(net.parameters(), lr=0.0002)
     for epoch in range(num_step):
         total_loss = 0.0
         idx = 1
